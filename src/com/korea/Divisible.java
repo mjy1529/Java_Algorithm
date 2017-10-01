@@ -18,7 +18,6 @@ public class Divisible {
 		}
 		return ret;
 	}
-	
 	public static void main(String[] args) {
 		Divisible div = new Divisible();
 		int[] array = {5,9,7,10};
