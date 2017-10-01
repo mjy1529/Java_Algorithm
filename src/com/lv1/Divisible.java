@@ -1,4 +1,4 @@
-package com.korea;
+package com.lv1;
 
 import java.util.Arrays;
 

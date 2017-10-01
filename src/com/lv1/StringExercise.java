@@ -1,4 +1,4 @@
-package com.korea;
+package com.lv1;
 
 public class StringExercise {
 	String getMiddele(String word) {

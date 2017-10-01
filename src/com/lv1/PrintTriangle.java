@@ -1,4 +1,4 @@
-package com.korea;
+package com.lv1;
 
 public class PrintTriangle {
 	public String printTriangle(int num) {

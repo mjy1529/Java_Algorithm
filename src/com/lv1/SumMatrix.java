@@ -1,4 +1,4 @@
-package com.korea;
+package com.lv1;
 
 class SumMatrix {
 	int[][] sumMatrix(int[][] A, int[][] B) {
