@@ -1,17 +1,18 @@
 package com.lv1;
 
+//행렬의 덧셈
+
 class SumMatrix {
 	int[][] sumMatrix(int[][] A, int[][] B) {
-		int[][] answer = {{0, 0}, {0, 0}};
+		int[][] answer = new int[A.length][A[0].length];
 		for(int i=0; i<A.length; i++) {
-			for(int j=0; j<A[i].length; j++) {
+			for(int j=0; j<A[0].length; j++) {
 				answer[i][j] = A[i][j] + B[i][j];
 			}
 		}
 		return answer;
 	}
 
-	// 아래는 테스트로 출력해 보기 위한 코드입니다.
 	public static void main(String[] args) {
 		SumMatrix c = new SumMatrix();
 		int[][] A = { { 1, 2 }, { 2, 3 } };
