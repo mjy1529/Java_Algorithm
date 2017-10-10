@@ -24,8 +24,7 @@ public class NextBigNumber {
         return n;
 
         //다른 사람이 작성한 코드
-        /*
-		int a = Integer.bitCount(n);
+        /*int a = Integer.bitCount(n);
         int nextnum = n+1;
         
         while(true) {
