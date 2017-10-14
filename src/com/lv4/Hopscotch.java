@@ -15,7 +15,7 @@ public class Hopscotch {
 			}
 			final_exc = exc;
 			exc = 0; //행이 바뀌기 전 계산을 제외시킬 열 초기화
-			System.out.println(final_exc);
+			//System.out.println(final_exc);
 			result += max;
 		}
 		return result;
